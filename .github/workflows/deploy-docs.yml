@@ -1,7 +1,8 @@
 
 name: 部署文档
 
-on:
+on: 
+  workflow_dispatch: 
   push:
     branches:
       - main
